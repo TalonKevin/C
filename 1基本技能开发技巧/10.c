@@ -2,7 +2,7 @@
 技巧：01
 十进制数转化为十六进制
 ****************************************/
-/*
+
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -12,12 +12,12 @@ int main(int argc, char *argv[])
   printf ("the hex number is %x\n",i);
   return 0;
 }
-*/
+
 /****************************************
 技巧：02
 N进制转换为十进制
 ****************************************/
- /*
+ 
 #include <stdio.h>
 #include <string.h>
 main()
@@ -37,7 +37,7 @@ main()
       if (a[i]-'0'>=n&&a[i]<'A'||a[i]-'A'+10>=n)//判断输入的数据和进制数是否相等
 {
   printf ("data error!!");
-  exit(0);        //推出程序
+  exit(0);        //退出程序
  }
       if (a[i] >= '0'&&a[i] <= '9')    //判断是否为数字
 	t=a[i]-'0';
@@ -48,13 +48,13 @@ main()
   printf ("the decimal is %ld\n",t1);
   return 0;
 }
-*/
+
 /****************************************
 技巧03：IP地址形式输出
 ****************************************/
-  /*
+
 #include <stdio.h>
- int bin_dec(int x,int n)     //将而进制转换成十进制
+ int bin_dec(int x,int n)     //将二进制转换成十进制
  {
    if(n==0)
      return 1;
@@ -103,11 +103,11 @@ printf ("ip:");
 printf ("%d.%d.%d.%d\n",ip[0],ip[1],ip[2],ip[3]);
   return 0;
 }
-  */
+
 /****************************************
 技巧04：数字由小到大排序
 ****************************************/
-/*
+
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -136,11 +136,11 @@ int main(int argc, char *argv[])
   printf ("%d  %d  %d\n",a,b,c);
   return 0;
 }
-*/
+
 /****************************************
 技巧05：阶梯问题
 ****************************************/
- /*
+
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -152,11 +152,11 @@ int main(int argc, char *argv[])
     }
   return 0;
 }
- */
+
 /****************************************
 技巧06:判断润年
 ****************************************/
-  /*
+
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -169,11 +169,11 @@ int main(int argc, char *argv[])
     printf ("%d is not a leap year\n",year);
   return 0;
 }
-  */
+
 /****************************************
 技巧07：对调数问题
 ****************************************/
-   /*
+
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -223,11 +223,11 @@ if(j==0)
   printf ("inexistince\n");
   return 0;
 }
-   */
+
 /****************************************
 技巧08：评定成绩等级
 ****************************************/
-    /*
+
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -258,11 +258,11 @@ int main(int argc, char *argv[])
     }
   return 0;
 }
-*/
+
 /****************************************
 技巧09:打印乘法口决表
 ****************************************/
-     /*
+
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -277,11 +277,11 @@ int main(int argc, char *argv[])
     }
   return 0;
 }
-     */
+
 /****************************************
 技巧10:打印杨辉三角
 ****************************************/
-      /*
+
 #include <stdio.h>
 int main(int argc, char *argv[])
      {
@@ -306,5 +306,3 @@ int main(int argc, char *argv[])
 	 }
        return 0;
      }
-      */
-

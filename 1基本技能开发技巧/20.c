@@ -1,7 +1,7 @@
 /****************************************
 技巧11：特殊等式 xyz+yzz=532
 ****************************************/
-/*
+
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -16,11 +16,11 @@ int main(int argc, char *argv[])
 	    }
   return 0;
 }
-*/
+
 /****************************************
 技巧12：统计各种字符个数
 ****************************************/
- /*
+ 
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -42,11 +42,11 @@ int main(int argc, char *argv[])
   printf ("letter=%d,digit=%d,space=%d,other=%d\n",letter,digit,space,other);
   return 0;
 }
- */
+
 /****************************************
 技巧13：猴子吃桃
 ****************************************/
-  /*
+
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -62,11 +62,11 @@ int main(int argc, char *argv[])
   printf ("the total is %d\n",x1);
   return 0;
 }
-  */
+
 /****************************************
 技巧14：删除字符串中连续字符
 ****************************************/
-   /*
+
 #include <stdio.h>
 char del(char s[],int pos,int len)   //自定义删除函数，这里采用覆盖方法
  {
@@ -90,11 +90,11 @@ int main(int argc, char *argv[])
   printf ("the final string:%s\n",str);
   return 0;
 }
-   */
+
 /****************************************
 技巧15：求同学的平均身高
 ****************************************/
-/*
+
 #include <stdio.h>
 float average(float array[],int n)
 {
@@ -120,11 +120,11 @@ int main(int argc, char *argv[])
   printf ("average height is %6.2f\n",aver);
   return 0;
 }
-*/
+
 /****************************************
 技巧16：灯塔数量（利用了穷举发）
 ****************************************/
-/*
+
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -149,7 +149,7 @@ int main(int argc, char *argv[])
     }
   return 0;
 }
-*/
+
 /****************************************
 技巧17：老师分糖果
 ****************************************/
@@ -157,7 +157,7 @@ int main(int argc, char *argv[])
 /****************************************
 技巧18：小球下落问题
 ****************************************/
- /*
+ 
 #include <stdio.h>
 int main(int argc, char *argv[])
 {
@@ -171,7 +171,7 @@ int main(int argc, char *argv[])
   printf ("the lenght of tenth time is %f\n",h/2);
   return 0;
 }
- */
+
 /****************************************
 技巧19:彩球问题
 ****************************************/
